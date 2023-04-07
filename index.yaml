@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  poc-nginx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-07T18:54:45.45106239+02:00"
+    description: A Helm chart for Kubernetes
+    digest: a48b9681e11f8326a5cbed215ecb0fa5ae331e756c6d3d457dcdc4008a34e569
+    name: poc-nginx
+    type: application
+    urls:
+    - https://github.com/caalpeva/helm-charts/poc-nginx-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-04-07T18:54:45.450015459+02:00"
