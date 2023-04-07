@@ -1,9 +1,33 @@
 apiVersion: v1
 entries:
+  nginx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-08T00:53:35.041466577+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 3f8a7653852dbd658f025ee755031c33912265e7e807a0974efe90991945d79d
+    name: nginx
+    type: application
+    urls:
+    - nginx-7.0.0.tgz
+    version: 7.0.0
   tomcat:
   - apiVersion: v1
     appVersion: "7.0"
-    created: "2023-04-08T00:48:17.446073788+02:00"
+    created: "2023-04-08T00:53:35.042252193+02:00"
+    deprecated: true
+    description: DEPRECATED - Deploy a basic tomcat application server with sidecar
+      as web archive container
+    digest: 1cdebb4fa1e481c7f60e15a903775dc52c45648d48a85d150c15d346abdd6ca3
+    home: https://github.com/yahavb
+    icon: http://tomcat.apache.org/res/images/tomcat.png
+    name: tomcat
+    urls:
+    - tomcat-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v1
+    appVersion: "7.0"
+    created: "2023-04-08T00:53:35.041862606+02:00"
     deprecated: true
     description: DEPRECATED - Deploy a basic tomcat application server with sidecar
       as web archive container
@@ -14,4 +38,4 @@ entries:
     urls:
     - tomcat-0.4.3.tgz
     version: 0.4.3
-generated: "2023-04-08T00:48:17.445489751+02:00"
+generated: "2023-04-08T00:53:35.040951023+02:00"
