@@ -1,0 +1,17 @@
+apiVersion: v1
+entries:
+  tomcat:
+  - apiVersion: v1
+    appVersion: "7.0"
+    created: "2023-04-08T00:48:17.446073788+02:00"
+    deprecated: true
+    description: DEPRECATED - Deploy a basic tomcat application server with sidecar
+      as web archive container
+    digest: df50894fd56264f8a2f007cb0fb142161a90ebf3db5674bc71109e41659af158
+    home: https://github.com/yahavb
+    icon: http://tomcat.apache.org/res/images/tomcat.png
+    name: tomcat
+    urls:
+    - tomcat-0.4.3.tgz
+    version: 0.4.3
+generated: "2023-04-08T00:48:17.445489751+02:00"
